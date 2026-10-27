@@ -1,0 +1,10 @@
+[project]
+name = "scrapingbee-serp-study"
+version = "0.1.0"
+description = "Collect repeatable Google organic search results for a SERP reliability study"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32,<3",
+    "python-dotenv>=1.0,<2",
+]
